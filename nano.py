@@ -10,7 +10,7 @@ DEFAULT_MODEL = "Nano-Analyst-1.5B-v1.Q4_K_M.gguf"
 
 def load_model(model_path):
     if not os.path.exists(model_path):
-        print(f"❌ Error: Model file '{model_path}' not found.")
+        print(f"Error: Model file '{model_path}' not found.")
         sys.exit(1)
     print(f"Loading {model_path} (runs on CPU)...")
     return Llama(model_path=model_path, n_ctx=2048, verbose=False)
@@ -47,7 +47,7 @@ def mode_watch(args):
                     print(json.dumps(result, indent=2))
                     print("-" * 30)
     except FileNotFoundError:
-        print(f"❌ Error: File '{args.file}' not found.")
+        print(f"Error: File '{args.file}' not found.")
 
 def mode_scan(args):
     """Analyzes a single string provided in the command line."""
@@ -76,4 +76,5 @@ if __name__ == "__main__":
     if args.command == "watch":
         mode_watch(args)
     elif args.command == "scan":
+
         mode_scan(args)
