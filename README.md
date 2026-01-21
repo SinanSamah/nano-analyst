@@ -48,9 +48,6 @@ Nano-Analyst behaves like `tail -f` but with intelligence. Point it at any log f
 python nano.py watch /var/log/auth.log
 ```
 
-
-```
-
 ### 3. Single Scan
 
 ```bash
