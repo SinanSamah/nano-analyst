@@ -48,15 +48,7 @@ Nano-Analyst behaves like `tail -f` but with intelligence. Point it at any log f
 python nano.py watch /var/log/auth.log
 ```
 
-**Output:**
 
-```json
-{
-  "timestamp": "2025-01-21T14:05:00",
-  "event_type": "SQL Injection Attempt",
-  "src_ip": "10.10.10.5",
-  "severity": "CRITICAL"
-}
 ```
 
 ### 3. Single Scan
