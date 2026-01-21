@@ -4,6 +4,10 @@
 **Nano-Analyst** is a specialized "Small Language Model" (SLM) designed to run on low-resource edge devices (like Raspberry Pi or standard Laptops). It parses unstructured cybersecurity logs into structured JSON in real-time, eliminating the need for expensive cloud APIs.
 
 ---
+<div align="center">
+  <img src="demo.png" alt="Nano-Analyst Demo" width="100%">
+  <p><em>Real-time detection of SQL Injection, Kernel Panics, and Buffer Overflows on CPU.</em></p>
+</div>
 
 ## 🏗️ Architecture: The Distillation Pipeline
 
