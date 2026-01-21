@@ -32,7 +32,7 @@ This project implements a **Teacher-Student Distillation** workflow:
 
 ```bash
 # Clone repo
-git clone https://github.com/YOUR_USERNAME/nano-analyst.git
+git clone https://github.com/SinanSamah/nano-analyst.git
 cd nano-analyst
 
 # Install dependencies (CPU optimized)
